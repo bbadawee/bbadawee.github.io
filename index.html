@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bzhar Badawy - Technology Enthusiast</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+        header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            font-size: 1.8em;
+            color: #333;
+            border-bottom: 2px solid #007bff; /* A touch of color */
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .section p, .section ul {
+            font-size: 1em;
+            color: #444;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .skill-category {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #eee;
+        }
+        .skill-category h3 {
+            font-size: 1.2em;
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #0056b3;
+        }
+        .skill-category ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+        .skill-category ul li {
+            margin-bottom: 5px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .skill-category ul li::before {
+            content: "▹"; /* Simple bullet */
+            position: absolute;
+            left: 0;
+            color: #007bff;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+            .section h2 {
+                font-size: 1.5em;
+            }
+            .skills-grid {
+                grid-template-columns: 1fr; /* Stack skills on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bzhar Badawy</h1>
+            <p>Technology enthusiast focused on fintech, payment systems, and secure digital infrastructure.</p>
+        </header>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I work across the full spectrum of card payments, ISO 8583 messaging, EFT switches, EMV personalization, and SoftPOS technologies.</p>
+            <p>My projects span both consumer-facing apps and enterprise-grade payment platforms, aiming to simplify complex financial systems through efficient architecture, localization, and seamless user experiences. I’m especially passionate about building tools that empower engineers — from ISO simulators and PIN block calculators to full-stack payment SDKs.</p>
+            <p>I take pride in working on solutions that help modernize financial services in underserved regions by combining deep technical knowledge with a clear understanding of local market needs.</p>
+        </section>
+
+        <section id="what-i-work-with" class="section">
+            <h2>🧠 What I Work With</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>💳 Payments & Switching</h3>
+                    <ul>
+                        <li>EMV (L2/L3)</li>
+                        <li>ISO 8583 (1993/1997)</li>
+                        <li>EFT</li>
+                        <li>Card issuance/acquiring</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>🔐 Security & Key Management</h3>
+                    <ul>
+                        <li>Thales HSM (payShield 10K)</li>
+                        <li>DUKPT</li>
+                        <li>3DES</li>
+                        <li>RSA</li>
+                        <li>PCI DSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>📱 App Development</h3>
+                    <ul>
+                        <li>Flutter</li>
+                        <li>React Native</li>
+                        <li>Expo</li>
+                        <li>Next.js</li>
+                        <li>Supabase</li>
+                        <li>Firebase</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>🛠️ Backends & APIs</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Laravel</li>
+                        <li>PostgreSQL</li>
+                        <li>REST APIs</li>
+                        <li>Local payment integrations</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>🌍 Localization & Access</h3>
+                    <ul>
+                        <li>Multilingual support (Kurdish, Arabic, English)</li>
+                        <li>Offline-first UX</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>🧩 Custom Tools</h3>
+                    <ul>
+                        <li>EMV TLV decoders</li>
+                        <li>PIN calculators</li>
+                        <li>Luhn checkers</li>
+                        <li>SoftPOS SDKs</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Connect With Me</h2>
+            <p>Want to collaborate, hire, or simply connect? Reach out below:</p>
+            <ul class="contact-info">
+                <li>📧 Email: <a href="mailto:bzhar.badawy@outlook.com">bzhar.badawy@outlook.com</a></li>
+                <li>🐙 GitHub: <a href="https://github.com/bbadawee" target="_blank" rel="noopener noreferrer">github.com/bbadawee</a></li>
+                <li>💬 LinkedIn: <a href="https://linkedin.com/in/bbadawee" target="_blank" rel="noopener noreferrer">linkedin.com/in/bbadawee</a></li>
+                <li>🌍 Based in: Erbil, Iraq</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; <span id="currentYear"></span> Bzhar Badawy. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
